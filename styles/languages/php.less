@@ -1,0 +1,37 @@
+.syntax--source.syntax--php {
+  .syntax--meta {
+    &.syntax--function-call {
+      color: @red;
+
+      &.syntax--static {
+        font-style: italic;
+      }
+    }
+
+    &.syntax--string-contents {
+      color: @blue;
+    }
+  }
+
+  .syntax--punctuation.syntax--definition.syntax--variable {
+    color: @red;
+  }
+
+  .syntax--support.syntax--other.syntax--namespace.syntax--use {
+    color: @red;
+  }
+}
+
+.syntax--text.syntax--html.syntax--php.syntax--blade {
+  .syntax--keyword {
+    color: @red;
+
+    &.syntax--operator {
+      color: @red;
+    }
+  }
+
+  .syntax--support.syntax--function.syntax--construct {
+    color: @blue;
+  }
+}

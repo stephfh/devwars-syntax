@@ -1,0 +1,15 @@
+{
+  "name": "devwars-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "An Atom syntax theme for all DevWars fans out there.",
+  "keywords": [
+    "syntax",
+    "devwars"
+  ],
+  "repository": "https://github.com/stephfh/devwars-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

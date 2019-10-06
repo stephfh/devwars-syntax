@@ -1,0 +1,40 @@
+.syntax--html {
+  &.syntax--meta.syntax--tag.syntax--doctype {
+      color: @red;
+  }
+  &.syntax--punctuation.syntax--definition.syntax--tag.syntax--html {
+      color: @foreground;
+  }
+  &.syntax--entity.syntax--name.syntax--tag {
+    color: @red;
+  }
+
+  &.syntax--entity.syntax--other.syntax--attribute-name {
+    color: @foreground;
+  }
+
+  &.syntax--string {
+    color: @blue;
+  }
+  &.syntax--string.syntax--punctuation {
+    color: @red;
+  }
+
+  &.syntax--string.syntax--link {
+    color: @red;
+    font-style: italic;
+  }
+
+  &.syntax--comment.syntax--block.syntax--html {
+    color: @gray;
+  }
+
+  &.syntax--punctuation.syntax--definition.syntax--comment.syntax--html {
+      color: @gray;
+  }
+
+  &.syntax--embedded .syntax--entity.syntax--name.syntax--tag {
+    color: @red;
+    font-style: italic;
+  }
+}
